@@ -11,6 +11,16 @@ function lastImageSelector() {
 }
 
 function ninjaBabySelector () {
-  var ninjaBaby = ;
+  var ninjaBaby = $('#baby-ninja');
   return ninjaBaby;
+}
+
+function divSelector () {
+  var divClassPics = $('div.pics');
+  return divClassPics;
+}
+
+function firstListItem () {
+  var picInUl = $('ul #pic-list:first-child');
+  return picInUl;
 }
